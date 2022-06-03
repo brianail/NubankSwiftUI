@@ -11,6 +11,17 @@
 		891EB5782843EBA100426E6F /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 891EB5772843EBA100426E6F /* ContentView.swift */; };
 		891EB57A2843EBA500426E6F /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 891EB5792843EBA500426E6F /* Assets.xcassets */; };
 		891EB57D2843EBA500426E6F /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 891EB57C2843EBA500426E6F /* Preview Assets.xcassets */; };
+		891EB5862843EFE200426E6F /* IconRow.swift in Sources */ = {isa = PBXBuildFile; fileRef = 891EB5852843EFE200426E6F /* IconRow.swift */; };
+		891EB5882843FA4000426E6F /* HeaderApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = 891EB5872843FA4000426E6F /* HeaderApp.swift */; };
+		891EB58A2844104100426E6F /* CardInfoNu.swift in Sources */ = {isa = PBXBuildFile; fileRef = 891EB5892844104100426E6F /* CardInfoNu.swift */; };
+		893AEC9228447261009E2DB4 /* ContaSaldoView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 893AEC9128447261009E2DB4 /* ContaSaldoView.swift */; };
+		893AEC94284474AC009E2DB4 /* CardDemonstrativos.swift in Sources */ = {isa = PBXBuildFile; fileRef = 893AEC93284474AC009E2DB4 /* CardDemonstrativos.swift */; };
+		893AEC9628447B1B009E2DB4 /* CardCompras.swift in Sources */ = {isa = PBXBuildFile; fileRef = 893AEC9528447B1B009E2DB4 /* CardCompras.swift */; };
+		895CD69E284A850600C31B28 /* HomeView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 895CD69D284A850600C31B28 /* HomeView.swift */; };
+		895CD6A0284A860200C31B28 /* ContaCreditoView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 895CD69F284A860200C31B28 /* ContaCreditoView.swift */; };
+		895CD6A2284A990500C31B28 /* LoginView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 895CD6A1284A990500C31B28 /* LoginView.swift */; };
+		895CD6A6284AA48A00C31B28 /* LoadingView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 895CD6A5284AA48900C31B28 /* LoadingView.swift */; };
+		897EB139284416C800FB18E3 /* CardFooter.swift in Sources */ = {isa = PBXBuildFile; fileRef = 897EB138284416C800FB18E3 /* CardFooter.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -19,6 +30,18 @@
 		891EB5772843EBA100426E6F /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
 		891EB5792843EBA500426E6F /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		891EB57C2843EBA500426E6F /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
+		891EB5852843EFE200426E6F /* IconRow.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = IconRow.swift; sourceTree = "<group>"; };
+		891EB5872843FA4000426E6F /* HeaderApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HeaderApp.swift; sourceTree = "<group>"; };
+		891EB5892844104100426E6F /* CardInfoNu.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CardInfoNu.swift; sourceTree = "<group>"; };
+		893AEC9128447261009E2DB4 /* ContaSaldoView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContaSaldoView.swift; sourceTree = "<group>"; };
+		893AEC93284474AC009E2DB4 /* CardDemonstrativos.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CardDemonstrativos.swift; sourceTree = "<group>"; };
+		893AEC9528447B1B009E2DB4 /* CardCompras.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CardCompras.swift; sourceTree = "<group>"; };
+		895CD69D284A850600C31B28 /* HomeView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HomeView.swift; sourceTree = "<group>"; };
+		895CD69F284A860200C31B28 /* ContaCreditoView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContaCreditoView.swift; sourceTree = "<group>"; };
+		895CD6A1284A990500C31B28 /* LoginView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LoginView.swift; sourceTree = "<group>"; };
+		895CD6A3284A9F8E00C31B28 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist; path = Info.plist; sourceTree = "<group>"; };
+		895CD6A5284AA48900C31B28 /* LoadingView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LoadingView.swift; sourceTree = "<group>"; };
+		897EB138284416C800FB18E3 /* CardFooter.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CardFooter.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -51,8 +74,10 @@
 		891EB5742843EBA100426E6F /* NubankSwiftUI */ = {
 			isa = PBXGroup;
 			children = (
+				895CD6A3284A9F8E00C31B28 /* Info.plist */,
 				891EB5752843EBA100426E6F /* NubankSwiftUIApp.swift */,
-				891EB5772843EBA100426E6F /* ContentView.swift */,
+				891EB5842843EFA000426E6F /* Views */,
+				895CD6A4284AA0DE00C31B28 /* Managers */,
 				891EB5792843EBA500426E6F /* Assets.xcassets */,
 				891EB57B2843EBA500426E6F /* Preview Content */,
 			);
@@ -65,6 +90,40 @@
 				891EB57C2843EBA500426E6F /* Preview Assets.xcassets */,
 			);
 			path = "Preview Content";
+			sourceTree = "<group>";
+		};
+		891EB5832843EF8A00426E6F /* Components */ = {
+			isa = PBXGroup;
+			children = (
+				891EB5872843FA4000426E6F /* HeaderApp.swift */,
+				891EB5852843EFE200426E6F /* IconRow.swift */,
+				891EB5892844104100426E6F /* CardInfoNu.swift */,
+				897EB138284416C800FB18E3 /* CardFooter.swift */,
+				893AEC93284474AC009E2DB4 /* CardDemonstrativos.swift */,
+				893AEC9528447B1B009E2DB4 /* CardCompras.swift */,
+			);
+			path = Components;
+			sourceTree = "<group>";
+		};
+		891EB5842843EFA000426E6F /* Views */ = {
+			isa = PBXGroup;
+			children = (
+				891EB5772843EBA100426E6F /* ContentView.swift */,
+				895CD6A5284AA48900C31B28 /* LoadingView.swift */,
+				895CD6A1284A990500C31B28 /* LoginView.swift */,
+				895CD69D284A850600C31B28 /* HomeView.swift */,
+				893AEC9128447261009E2DB4 /* ContaSaldoView.swift */,
+				895CD69F284A860200C31B28 /* ContaCreditoView.swift */,
+				891EB5832843EF8A00426E6F /* Components */,
+			);
+			path = Views;
+			sourceTree = "<group>";
+		};
+		895CD6A4284AA0DE00C31B28 /* Managers */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = Managers;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -137,8 +196,19 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				891EB5882843FA4000426E6F /* HeaderApp.swift in Sources */,
+				891EB5862843EFE200426E6F /* IconRow.swift in Sources */,
+				897EB139284416C800FB18E3 /* CardFooter.swift in Sources */,
+				895CD69E284A850600C31B28 /* HomeView.swift in Sources */,
+				891EB58A2844104100426E6F /* CardInfoNu.swift in Sources */,
+				895CD6A0284A860200C31B28 /* ContaCreditoView.swift in Sources */,
+				895CD6A2284A990500C31B28 /* LoginView.swift in Sources */,
 				891EB5782843EBA100426E6F /* ContentView.swift in Sources */,
+				893AEC9628447B1B009E2DB4 /* CardCompras.swift in Sources */,
 				891EB5762843EBA100426E6F /* NubankSwiftUIApp.swift in Sources */,
+				893AEC9228447261009E2DB4 /* ContaSaldoView.swift in Sources */,
+				895CD6A6284AA48A00C31B28 /* LoadingView.swift in Sources */,
+				893AEC94284474AC009E2DB4 /* CardDemonstrativos.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -270,9 +340,9 @@
 				DEVELOPMENT_TEAM = R9YGK79Y8Y;
 				ENABLE_PREVIEWS = YES;
 				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = NubankSwiftUI/Info.plist;
 				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
 				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
-				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
 				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
 				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
 				LD_RUNPATH_SEARCH_PATHS = (
@@ -299,9 +369,9 @@
 				DEVELOPMENT_TEAM = R9YGK79Y8Y;
 				ENABLE_PREVIEWS = YES;
 				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = NubankSwiftUI/Info.plist;
 				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
 				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
-				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
 				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
 				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
 				LD_RUNPATH_SEARCH_PATHS = (
